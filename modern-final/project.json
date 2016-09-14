@@ -30,6 +30,7 @@
   "buildOptions": {
     "emitEntryPoint": true,
     "preserveCompilationContext": true,
+    //enabling pdb for debugging
     "debugType": "portable"
   },
 
