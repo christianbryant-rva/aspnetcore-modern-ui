@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
@@ -29,11 +30,19 @@ namespace modern_final
             {
                 app.UseDeveloperExceptionPage();
             }
-        // from AddMvc -- we must now 'Use' the Mvc Service from earlier -cwb 9/14
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
+
+            // from AddMvc -- we must now 'Use' the Mvc Service from earlier -cwb 9/14
+            app.UseMvc(routes => {
+                routes.MapRoute(
+                    name: "default",
+                    template: "{controller=Home}/{Action=Index}/{id?}"
+                );
             });
+
+            // app.Run(async (context) =>
+            // {
+            //     await context.Response.WriteAsync("Hello World!");
+            // });
         }
     }
 }
