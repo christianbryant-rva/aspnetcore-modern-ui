@@ -2,14 +2,13 @@
 
 ## This application consists of:
 
-*   Hello World ASP.NET CORE 1.0 Application with a WebApi serving my "Greetings Controller"
+*   A Hello World ASP.NET CORE 1.0 Application with a WebApi serving my "Greetings Controller!"
+
 *   [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side librarie
-*   [Yoeman] for packages(https://yeoman.io)for my Scaffolding
+*   [![NPM](https://nodei.co/npm/<package>.png)](https://npmjs.org/package/<package>)
 *   [![Travis](https://img.shields.io/travis/USER/REPO.svg?maxAge=3600&label=travis)](https://travis-ci.org/andrewlock/NetEscapades.AspNetCore.SecurityHeaders) for ci
 *   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
-*   [Gulp]
-*   [ReactJS]
-*   [Auerila]
+
 *   ...a lot of fun, exciting new stuff ;) 
 
 ## How to
