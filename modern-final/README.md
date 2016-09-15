@@ -1,14 +1,16 @@
 # Welcome to ASP.NET Core
 
-We've made some big updates in this release, so it’s **important** that you spend a few minutes to learn what’s new.
-
-You've created a new ASP.NET Core project. [Learn what's new](https://go.microsoft.com/fwlink/?LinkId=518016)
-
 ## This application consists of:
 
-*   Sample pages using ASP.NET Core MVC
-*   [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
+*   Hello World ASP.NET CORE 1.0 Application with a WebApi serving my "Greetings Controller"
+*   [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side librarie
+*   [Yoeman] for packages(https://yeoman.io)for my Scaffolding
+*   [![Travis](https://img.shields.io/travis/USER/REPO.svg?maxAge=3600&label=travis)](https://travis-ci.org/andrewlock/NetEscapades.AspNetCore.SecurityHeaders) for ci
 *   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
+*   [Gulp]
+*   [ReactJS]
+*   [Auerila]
+*   ...a lot of fun, exciting new stuff ;) 
 
 ## How to
 
